@@ -17,7 +17,7 @@ public class ThymeleafExController {
 
         model.addAttribute("data","타임리프 예제입니다");
 
-        return "thymeleafEx/thmeleafEx01";
+        return "thymeleafEx/thymeleafEx01";
     }
 
     @GetMapping(value = "/ex02")
@@ -30,6 +30,6 @@ public class ThymeleafExController {
         itemDto.setRegTime(LocalDateTime.now());
 
         model.addAttribute("itemDto",itemDto);
-        return "thymeleafEx/thmeleafEx02";
+        return "thymeleafEx/thymeleafEx02";
     }
 }
