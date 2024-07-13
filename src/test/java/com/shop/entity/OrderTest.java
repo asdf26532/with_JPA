@@ -1,4 +1,3 @@
-/*
 package com.shop.entity;
 
 import com.shop.constant.ItemSellStatus;
@@ -120,4 +119,4 @@ class OrderTest {
         System.out.println("===========================");
     }
 
-}*/
+}
